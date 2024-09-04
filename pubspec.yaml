@@ -69,15 +69,15 @@ flutter_launcher_icons:
   min_sdk_android: 21
 
 
-# flutter_native_splash:
-#   color: "#ffffff"
-#   image: lib/images/logo.png
+flutter_native_splash:
+  color: "#ffffff"
+  image: lib/images/logo.png
 
-#   android_12:
-#     image: lib/images/logo.png
-#     # Splash screen background color.
-#     color: "#ffffff"
-#     # App icon background color.
+  android_12:
+    image: lib/images/logo.png
+    # Splash screen background color.
+    color: "#ffffff"
+    # App icon background color.
 
 # The following section is specific to Flutter packages.
 flutter:
