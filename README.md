@@ -1,16 +1,12 @@
-# frca
+#This is the official readme file for this project.
 
-A new Flutter project.
+To run and install this application on your phone you would need to have flutter setup on your laptop.
+If you do not know how to setup flutter for your windows or macbook,
+this is an official link on how to set up flutter on your laptop
+# MACOS - https://www.youtube.com/watch?v=f09c-nw15K8
+# WINDOWS - https://www.youtube.com/watch?v=mMeQhLGD-og
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Once you are done setting up flutter on your device, you can pull the github repo unto your device 
+and open it with an IDE of your choice
+Then run flutter pub get to fix all errors
+Then run the application
