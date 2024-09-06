@@ -202,6 +202,10 @@ class _NotificationsPageState extends State<NotificationsPage>
                   }
                 } else {
                   if (notification["details"].containsKey("link")) {
+                    markAsRead(notification["_id"]);
+                    setState(() {
+                      isRead = true;
+                    });
                     _buildwebView(context, name, data, classes, notification);
                   }
                 }
