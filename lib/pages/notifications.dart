@@ -180,8 +180,7 @@ class _NotificationsPageState extends State<NotificationsPage>
     );
   }
 
-  Widget _buildNotificationTiles(
-      String name, List<dynamic> data, List<dynamic> classes) {
+  Widget _buildNotificationTiles(String name, List<dynamic> data, classes) {
     return Column(
       children: List.generate(data.length, (index) {
         final notification = data[index];
@@ -461,137 +460,205 @@ class _NotificationsPageState extends State<NotificationsPage>
   }
 
   void _buildwebView(BuildContext context, String name, List<dynamic> data,
-      List<dynamic> classes, notification) {
+      classes, notification) {
     //getting current class details
     var currClass;
-    for (int i = 0; i < classes.length; i++) {
-      if (classes[i].containsValue(notification["details"]["class_id"])) {
-        currClass = classes[i];
-        //mark attendance
-        //checking if student has already marked attendance
-        if (currClass["test_attendee_names"].contains(name)) {
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
-              content: Row(
-                mainAxisAlignment: MainAxisAlignment.start,
-                children: [
-                  Icon(
-                    Icons.info_outline_rounded,
-                    color: Colors.white,
-                  ),
-                  SizedBox(
-                    width: 15,
-                  ),
-                  Expanded(
-                    child: Text("Attendance has already been marked",
-                        style:
-                            TextStyle(fontFamily: 'Montserrat', fontSize: 16)),
-                  )
-                ],
+    if (classes != "No Upcoming Classes") {
+      for (int i = 0; i < classes.length; i++) {
+        if (classes[i].containsValue(notification["details"]["class_id"])) {
+          currClass = classes[i];
+          //mark attendance
+          //checking if student has already marked attendance
+          if (currClass["test_attendee_names"].contains(name)) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(
+                content: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Icon(
+                      Icons.info_outline_rounded,
+                      color: Colors.white,
+                    ),
+                    SizedBox(
+                      width: 15,
+                    ),
+                    Expanded(
+                      child: Text("Attendance has already been marked",
+                          style: TextStyle(
+                              fontFamily: 'Montserrat', fontSize: 16)),
+                    )
+                  ],
+                ),
+                backgroundColor: Color.fromARGB(255, 255, 119, 110),
+                padding: EdgeInsets.all(25),
               ),
-              backgroundColor: Color.fromARGB(255, 255, 119, 110),
-              padding: EdgeInsets.all(25),
-            ),
-          );
-        } else {
-          startCamera();
-          showModalBottomSheet(
-              isScrollControlled: true,
-              showDragHandle: true,
-              context: context,
-              builder: (context) {
-                //checking time contraints
-                return StatefulBuilder(
-                    builder: (BuildContext context, StateSetter setState) {
-                  //cheking time constrainsts
-                  DateTime startTime = DateTime.parse(currClass["start_time"]);
-                  DateTime endTime = DateTime.parse(currClass["end_time"]);
-                  DateTime currentTime =
-                      DateTime.parse(DateTime.now().toString());
-                  //conditions
-                  if (!(currentTime.isBefore(startTime)) &&
-                      !(currentTime.isAfter(endTime))) {
-                    //Mark attendance
+            );
+          } else {
+            startCamera();
+            showModalBottomSheet(
+                isScrollControlled: true,
+                showDragHandle: true,
+                context: context,
+                builder: (context) {
+                  //checking time contraints
+                  return StatefulBuilder(
+                      builder: (BuildContext context, StateSetter setState) {
+                    //cheking time constrainsts
+                    DateTime startTime =
+                        DateTime.parse(currClass["start_time"]);
+                    DateTime endTime = DateTime.parse(currClass["end_time"]);
+                    DateTime currentTime =
+                        DateTime.parse(DateTime.now().toString());
+                    //conditions
+                    if (!(currentTime.isBefore(startTime)) &&
+                        !(currentTime.isAfter(endTime))) {
+                      //Mark attendance
 
-                    //location stream
-                    double classLong = currClass["location"]["longitude"];
-                    double classLat = currClass["location"]["latitude"];
+                      //location stream
+                      double classLong = currClass["location"]["longitude"];
+                      double classLat = currClass["location"]["latitude"];
 
-                    // ignore: unused_local_variable
-                    StreamSubscription<Position> positionStream =
-                        Geolocator.getPositionStream(
-                                locationSettings: locationSettings)
-                            .listen((Position? position) {
-                      // print(
-                      //     '${position?.latitude.toString()}, ${position?.longitude.toString()}');
+                      // ignore: unused_local_variable
+                      StreamSubscription<Position> positionStream =
+                          Geolocator.getPositionStream(
+                                  locationSettings: locationSettings)
+                              .listen((Position? position) {
+                        // print(
+                        //     '${position?.latitude.toString()}, ${position?.longitude.toString()}');
 
-                      //Setting gps range
-                      if (((position!.latitude - classLat)
-                                      .abs()
-                                      .toStringAsFixed(7) ==
-                                  "0.0000000" ||
-                              (position.latitude - classLat)
-                                  .abs()
-                                  .toStringAsFixed(7)
-                                  .contains('0.0000') ||
-                              (position.latitude - classLat)
-                                  .abs()
-                                  .toStringAsFixed(7)
-                                  .contains('0.00000')) &&
-                          ((position.longitude - classLat)
-                                      .abs()
-                                      .toStringAsFixed(7) ==
-                                  "0.0000000" ||
-                              (position.longitude - classLong)
-                                  .abs()
-                                  .toStringAsFixed(7)
-                                  .contains('0.0000') ||
-                              (position.longitude - classLong)
-                                  .abs()
-                                  .toStringAsFixed(7)
-                                  .contains('0.00000'))) {
-                        if (checkSend == false) {
-                          // setting states requires the send func to be called several times resulting in 400
-                          setState(() {
-                            initRecognition = true;
-                          });
+                        //Setting gps range
+                        if (((position!.latitude - classLat)
+                                        .abs()
+                                        .toStringAsFixed(7) ==
+                                    "0.0000000" ||
+                                (position.latitude - classLat)
+                                    .abs()
+                                    .toStringAsFixed(7)
+                                    .contains('0.0000') ||
+                                (position.latitude - classLat)
+                                    .abs()
+                                    .toStringAsFixed(7)
+                                    .contains('0.00000')) &&
+                            ((position.longitude - classLat)
+                                        .abs()
+                                        .toStringAsFixed(7) ==
+                                    "0.0000000" ||
+                                (position.longitude - classLong)
+                                    .abs()
+                                    .toStringAsFixed(7)
+                                    .contains('0.0000') ||
+                                (position.longitude - classLong)
+                                    .abs()
+                                    .toStringAsFixed(7)
+                                    .contains('0.00000'))) {
+                          if (checkSend == false) {
+                            // setting states requires the send func to be called several times resulting in 400
+                            setState(() {
+                              initRecognition = true;
+                            });
+                          }
+                        }
+                      });
+
+                      //Initialization of facial recognition when location is in range
+                      if (!initRecognition) {
+                        //vales changes when location is in range
+                        return SizedBox(
+                            height: 350,
+                            child: Center(
+                                child: Column(
+                              children: [
+                                //Ilustration
+                                Image.asset(
+                                  'lib/images/map.gif',
+                                  height: 250,
+                                  alignment: Alignment.centerLeft,
+                                ),
+                                //message
+                                const Text(
+                                  "Making sure you are in class...",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.w600,
+                                    fontFamily: 'Montserrat',
+                                    color: Color.fromARGB(255, 95, 95, 95),
+                                  ),
+                                  textAlign: TextAlign.center,
+                                ),
+                                const SizedBox(
+                                  height: 15,
+                                ),
+                                //sub message
+                                const Text(
+                                  "Stand by for facial recognition",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.w600,
+                                    fontFamily: 'Montserrat',
+                                    color: Color.fromARGB(255, 95, 95, 95),
+                                  ),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ],
+                            )));
+                      } else {
+                        switch (recognitionStatus) {
+                          case "success":
+                            Navigator.of(context).pop();
+                            return Container();
+                          case "failure":
+                            return buildStatusWidget(
+                                Icons.error_outline,
+                                const Color.fromARGB(255, 255, 68, 68),
+                                "Recognition failed");
+                          default:
+                            //camera view
+                            if (_isCameraInitialized) {
+                              void send() async {
+                                await cameraController
+                                    .takePicture()
+                                    .then((XFile? file) async {
+                                  if (mounted && file != null) {
+                                    final File image = File(file.path);
+                                    //send the image for recognition
+                                    recognitionStatus =
+                                        await markTestAttendance(
+                                            image,
+                                            notification["details"]
+                                                ["class_id"]);
+                                    setState(() =>
+                                        recognitionStatus = recognitionStatus);
+                                  }
+                                });
+                              }
+
+                              if (checkSend == false) {
+                                setState(() => checkSend = true);
+                                send();
+                              }
+                            }
+                            return buildCameraWidget();
                         }
                       }
-                    });
-
-                    //Initialization of facial recognition when location is in range
-                    if (!initRecognition) {
-                      //vales changes when location is in range
+                      //----------------------------------------------------------------
+                    } else if (currentTime.isBefore(startTime)) {
+                      //Not time yet
                       return SizedBox(
                           height: 350,
                           child: Center(
                               child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
                               //Ilustration
                               Image.asset(
-                                'lib/images/map.gif',
-                                height: 250,
-                                alignment: Alignment.centerLeft,
+                                'lib/images/time-management-bg.gif',
+                                height: 200,
                               ),
                               //message
                               const Text(
-                                "Making sure you are in class...",
+                                "Class hasn't started yet!!",
                                 style: TextStyle(
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.w600,
-                                  fontFamily: 'Montserrat',
-                                  color: Color.fromARGB(255, 95, 95, 95),
-                                ),
-                                textAlign: TextAlign.center,
-                              ),
-                              const SizedBox(
-                                height: 15,
-                              ),
-                              //sub message
-                              const Text(
-                                "Stand by for facial recognition",
-                                style: TextStyle(
-                                  fontSize: 16,
+                                  fontSize: 18,
                                   fontWeight: FontWeight.w600,
                                   fontFamily: 'Montserrat',
                                   color: Color.fromARGB(255, 95, 95, 95),
@@ -601,115 +668,52 @@ class _NotificationsPageState extends State<NotificationsPage>
                             ],
                           )));
                     } else {
-                      switch (recognitionStatus) {
-                        case "success":
-                          Navigator.of(context).pop();
-                          return Container();
-                        case "failure":
-                          return buildStatusWidget(
-                              Icons.error_outline,
-                              const Color.fromARGB(255, 255, 68, 68),
-                              "Recognition failed");
-                        default:
-                          //camera view
-                          if (_isCameraInitialized) {
-                            void send() async {
-                              await cameraController
-                                  .takePicture()
-                                  .then((XFile? file) async {
-                                if (mounted && file != null) {
-                                  final File image = File(file.path);
-                                  //send the image for recognition
-                                  recognitionStatus = await markTestAttendance(
-                                      image,
-                                      notification["details"]["class_id"]);
-                                  setState(() =>
-                                      recognitionStatus = recognitionStatus);
-                                }
-                              });
-                            }
-
-                            if (checkSend == false) {
-                              setState(() => checkSend = true);
-                              send();
-                            }
-                          }
-                          return buildCameraWidget();
-                      }
-                    }
-                    //----------------------------------------------------------------
-                  } else if (currentTime.isBefore(startTime)) {
-                    //Not time yet
-                    return SizedBox(
-                        height: 350,
-                        child: Center(
+                      //Class over
+                      return const SizedBox(
+                          height: 350,
+                          child: Center(
+                              child: Padding(
+                            padding: EdgeInsets.all(2.0),
                             child: Column(
-                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                          children: [
-                            //Ilustration
-                            Image.asset(
-                              'lib/images/time-management-bg.gif',
-                              height: 200,
-                            ),
-                            //message
-                            const Text(
-                              "Class hasn't started yet!!",
-                              style: TextStyle(
-                                fontSize: 18,
-                                fontWeight: FontWeight.w600,
-                                fontFamily: 'Montserrat',
-                                color: Color.fromARGB(255, 95, 95, 95),
-                              ),
-                              textAlign: TextAlign.center,
-                            ),
-                          ],
-                        )));
-                  } else {
-                    //Class over
-                    return const SizedBox(
-                        height: 350,
-                        child: Center(
-                            child: Padding(
-                          padding: EdgeInsets.all(2.0),
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                            children: [
-                              //Icon
-                              Icon(
-                                Icons.error_outline,
-                                color: Colors.red,
-                                size: 100,
-                              ),
-                              //message
-                              Text(
-                                "Class session is over!!",
-                                style: TextStyle(
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.w600,
-                                  fontFamily: 'Montserrat',
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: [
+                                //Icon
+                                Icon(
+                                  Icons.error_outline,
                                   color: Colors.red,
+                                  size: 100,
                                 ),
-                                textAlign: TextAlign.center,
-                              ),
-                            ],
-                          ),
-                        )));
-                  }
+                                //message
+                                Text(
+                                  "Class session is over!!",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.w600,
+                                    fontFamily: 'Montserrat',
+                                    color: Colors.red,
+                                  ),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ],
+                            ),
+                          )));
+                    }
+                  });
+                }).whenComplete(() {
+              if (_isCameraInitialized) {
+                cameraController.dispose();
+                if (recognitionStatus == "success") {
+                  _buildPageModal(context, notification["details"]["link"]);
+                }
+                setState(() {
+                  _isCameraInitialized = false;
+                  initRecognition = false;
+                  recognitionStatus = "waiting";
+                  checkSend = false;
                 });
-              }).whenComplete(() {
-            if (_isCameraInitialized) {
-              cameraController.dispose();
-              if (recognitionStatus == "success") {
-                _buildPageModal(context, notification["details"]["link"]);
               }
-              setState(() {
-                _isCameraInitialized = false;
-                initRecognition = false;
-                recognitionStatus = "waiting";
-                checkSend = false;
-              });
-            }
-          });
+            });
+          }
         }
       }
     }

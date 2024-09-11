@@ -1,0 +1,248 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.frca"
+4    android:versionCode="4001"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:2:1-75
+11-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:2:18-72
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:3:1-77
+12-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:3:18-74
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:35:5-66
+13-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:35:22-64
+14    <!--
+15         Required to query activities that can process text, see:
+16         https://developer.android.com/training/package-visibility?hl=en and
+17         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+18
+19         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+20    -->
+21    <queries>
+21-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:41:5-46:15
+22        <intent>
+22-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:42:9-45:18
+23            <action android:name="android.intent.action.PROCESS_TEXT" />
+23-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:43:13-72
+23-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:43:21-70
+24
+25            <data android:mimeType="text/plain" />
+25-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:44:13-50
+25-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:44:19-48
+26        </intent>
+27    </queries>
+28
+29    <uses-feature android:name="android.hardware.camera.any" />
+29-->[:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-64
+29-->[:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:10:19-61
+30
+31    <uses-permission android:name="android.permission.CAMERA" />
+31-->[:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-65
+31-->[:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-62
+32    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+32-->[:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-71
+32-->[:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-68
+33    <uses-permission
+33-->[:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:14:5-16:38
+34        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+34-->[:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-65
+35        android:maxSdkVersion="28" />
+35-->[:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-35
+36
+37    <permission
+37-->[androidx.core:core:1.13.1] C:\Users\vigil\.gradle\caches\transforms-3\f7d03183e70204ed2fc0540bb5212096\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+38        android:name="com.example.frca.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.13.1] C:\Users\vigil\.gradle\caches\transforms-3\f7d03183e70204ed2fc0540bb5212096\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.13.1] C:\Users\vigil\.gradle\caches\transforms-3\f7d03183e70204ed2fc0540bb5212096\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="com.example.frca.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+41-->[androidx.core:core:1.13.1] C:\Users\vigil\.gradle\caches\transforms-3\f7d03183e70204ed2fc0540bb5212096\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.13.1] C:\Users\vigil\.gradle\caches\transforms-3\f7d03183e70204ed2fc0540bb5212096\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+42
+43    <application
+44        android:name="android.app.Application"
+44-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:6:9-42
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.13.1] C:\Users\vigil\.gradle\caches\transforms-3\f7d03183e70204ed2fc0540bb5212096\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+46        android:icon="@mipmap/launcher_icon"
+46-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:7:9-45
+47        android:label="frca" >
+47-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:5:9-29
+48        <activity
+48-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:8:9-28:20
+49            android:name="com.example.frca.MainActivity"
+49-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:9:13-41
+50            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+50-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:13:13-163
+51            android:exported="true"
+51-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:10:13-36
+52            android:hardwareAccelerated="true"
+52-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:14:13-47
+53            android:launchMode="singleTop"
+53-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:11:13-43
+54            android:theme="@style/LaunchTheme"
+54-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:12:13-47
+55            android:windowSoftInputMode="adjustResize" >
+55-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:15:13-55
+56
+57            <!--
+58                 Specifies an Android theme to apply to this Activity as soon as
+59                 the Android process has started. This theme is visible to the user
+60                 while the Flutter UI initializes. After that, this theme continues
+61                 to determine the Window background behind the Flutter UI.
+62            -->
+63            <meta-data
+63-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:20:13-23:17
+64                android:name="io.flutter.embedding.android.NormalTheme"
+64-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:21:15-70
+65                android:resource="@style/NormalTheme" />
+65-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:22:15-52
+66
+67            <intent-filter>
+67-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:24:13-27:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:25:17-68
+68-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:25:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:26:17-76
+70-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:26:27-74
+71            </intent-filter>
+72        </activity>
+73        <!--
+74             Don't delete the meta-data below.
+75             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+76        -->
+77        <meta-data
+77-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:31:9-33:33
+78            android:name="flutterEmbedding"
+78-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:32:13-44
+79            android:value="2" />
+79-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:33:13-30
+80
+81        <service
+81-->[:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:56
+82            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+82-->[:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-77
+83            android:enabled="true"
+83-->[:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-35
+84            android:exported="false"
+84-->[:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+85            android:foregroundServiceType="location" />
+85-->[:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-53
+86        <service
+86-->[androidx.camera:camera-camera2:1.3.3] C:\Users\vigil\.gradle\caches\transforms-3\4ae809bcd6a73ecd9aff3b1e351b0eab\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:24:9-33:19
+87            android:name="androidx.camera.core.impl.MetadataHolderService"
+87-->[androidx.camera:camera-camera2:1.3.3] C:\Users\vigil\.gradle\caches\transforms-3\4ae809bcd6a73ecd9aff3b1e351b0eab\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:25:13-75
+88            android:enabled="false"
+88-->[androidx.camera:camera-camera2:1.3.3] C:\Users\vigil\.gradle\caches\transforms-3\4ae809bcd6a73ecd9aff3b1e351b0eab\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:26:13-36
+89            android:exported="false" >
+89-->[androidx.camera:camera-camera2:1.3.3] C:\Users\vigil\.gradle\caches\transforms-3\4ae809bcd6a73ecd9aff3b1e351b0eab\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:27:13-37
+90            <meta-data
+90-->[androidx.camera:camera-camera2:1.3.3] C:\Users\vigil\.gradle\caches\transforms-3\4ae809bcd6a73ecd9aff3b1e351b0eab\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:30:13-32:89
+91                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+91-->[androidx.camera:camera-camera2:1.3.3] C:\Users\vigil\.gradle\caches\transforms-3\4ae809bcd6a73ecd9aff3b1e351b0eab\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:31:17-103
+92                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+92-->[androidx.camera:camera-camera2:1.3.3] C:\Users\vigil\.gradle\caches\transforms-3\4ae809bcd6a73ecd9aff3b1e351b0eab\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:32:17-86
+93        </service>
+94
+95        <uses-library
+95-->[androidx.window:window:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\a5e8c15976a4a618fe548c183659b212\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+96            android:name="androidx.window.extensions"
+96-->[androidx.window:window:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\a5e8c15976a4a618fe548c183659b212\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+97            android:required="false" />
+97-->[androidx.window:window:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\a5e8c15976a4a618fe548c183659b212\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+98        <uses-library
+98-->[androidx.window:window:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\a5e8c15976a4a618fe548c183659b212\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+99            android:name="androidx.window.sidecar"
+99-->[androidx.window:window:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\a5e8c15976a4a618fe548c183659b212\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+100            android:required="false" />
+100-->[androidx.window:window:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\a5e8c15976a4a618fe548c183659b212\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+101
+102        <activity
+102-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\vigil\.gradle\caches\transforms-3\a84101be54a9b9b3e572892e66a771dd\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+103-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\vigil\.gradle\caches\transforms-3\a84101be54a9b9b3e572892e66a771dd\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+104            android:exported="false"
+104-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\vigil\.gradle\caches\transforms-3\a84101be54a9b9b3e572892e66a771dd\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\vigil\.gradle\caches\transforms-3\a84101be54a9b9b3e572892e66a771dd\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+106
+107        <meta-data
+107-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\vigil\.gradle\caches\transforms-3\a1b9618c8c7d1d8317c4c2912724d583\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+108            android:name="com.google.android.gms.version"
+108-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\vigil\.gradle\caches\transforms-3\a1b9618c8c7d1d8317c4c2912724d583\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+109            android:value="@integer/google_play_services_version" />
+109-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\vigil\.gradle\caches\transforms-3\a1b9618c8c7d1d8317c4c2912724d583\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+110
+111        <provider
+111-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vigil\.gradle\caches\transforms-3\3af47e761ce48bde06208db53e6f45a9\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+112            android:name="androidx.startup.InitializationProvider"
+112-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vigil\.gradle\caches\transforms-3\3af47e761ce48bde06208db53e6f45a9\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+113            android:authorities="com.example.frca.androidx-startup"
+113-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vigil\.gradle\caches\transforms-3\3af47e761ce48bde06208db53e6f45a9\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+114            android:exported="false" >
+114-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vigil\.gradle\caches\transforms-3\3af47e761ce48bde06208db53e6f45a9\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+115            <meta-data
+115-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vigil\.gradle\caches\transforms-3\3af47e761ce48bde06208db53e6f45a9\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+116                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+116-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vigil\.gradle\caches\transforms-3\3af47e761ce48bde06208db53e6f45a9\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+117                android:value="androidx.startup" />
+117-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vigil\.gradle\caches\transforms-3\3af47e761ce48bde06208db53e6f45a9\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+118            <meta-data
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+119                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+120                android:value="androidx.startup" />
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+121        </provider>
+122
+123        <receiver
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+124            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+125            android:directBootAware="false"
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+126            android:enabled="true"
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+127            android:exported="true"
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+128            android:permission="android.permission.DUMP" >
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+129            <intent-filter>
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+130                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+131            </intent-filter>
+132            <intent-filter>
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+133                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+134            </intent-filter>
+135            <intent-filter>
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+136                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+137            </intent-filter>
+138            <intent-filter>
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+139                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vigil\.gradle\caches\transforms-3\f8d6654225176167de06783406f78b2e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+140            </intent-filter>
+141        </receiver>
+142    </application>
+143
+144</manifest>

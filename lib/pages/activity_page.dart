@@ -5,6 +5,7 @@ import 'dart:io';
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:frca/model_and_service/frca_service.dart';
+import 'package:frca/pages/login_page.dart';
 import 'package:frca/pages/not_registered.dart';
 import 'package:frca/pages/notifications.dart';
 import 'package:geolocator/geolocator.dart';
@@ -82,9 +83,16 @@ class _ActivityPageState extends State<ActivityPage> {
     }
   }
 
-  Future<void> setlocalStore() async {
-    var localStorage = await SharedPreferences.getInstance();
-    await localStorage.setString("verify_status", "false");
+  Future<void> setlocalStore(String type) async {
+    switch (type) {
+      case "bio":
+        var localStorage = await SharedPreferences.getInstance();
+        await localStorage.setString("verify_status", "false");
+        break;
+      default:
+        var localStorage = await SharedPreferences.getInstance();
+        await localStorage.setString("access_token", "");
+    }
   }
 
   @override
@@ -113,99 +121,139 @@ class _ActivityPageState extends State<ActivityPage> {
                       Image.asset('lib/images/cloudloading.gif', height: 220),
                 );
               } else if (snapshot.hasData) {
-                final data = snapshot.data["profile"];
-                final notifications = List.from(
-                    snapshot.data?["profile"]["notifications"].reversed ??
-                        [].reversed);
-                final upcomingClasses = snapshot.data["upcoming_classes"];
-                if (data == null || !data.containsKey("is_face_enrolled")) {
-                  return Center(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Image.asset('lib/images/Warning.gif', height: 300),
-                        const Text(
-                          "Oops! Something went wrong",
-                          style: TextStyle(
-                            fontFamily: 'Montserrat',
-                            fontSize: 20,
-                            color: Color.fromARGB(177, 158, 158, 158),
-                            fontWeight: FontWeight.w600,
-                          ),
+                //checking if stored koken is valid
+                if (snapshot.data
+                    .containsValue("Could not validate credentials")) {
+                  WidgetsBinding.instance.addPostFrameCallback((_) {
+                    setlocalStore("token");
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(
+                        content: Row(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            Icon(
+                              Icons.info_outline_rounded,
+                              color: Colors.white,
+                            ),
+                            SizedBox(
+                              width: 15,
+                            ),
+                            Expanded(
+                              child: Text(
+                                  "Session has expired, please re-authenticate",
+                                  style: TextStyle(
+                                      fontFamily: 'Montserrat', fontSize: 16)),
+                            )
+                          ],
                         ),
-                        const SizedBox(height: 15),
-                        GestureDetector(
-                          onTap: () {
-                            setState(() {});
-                          },
-                          child: const Text(
-                            "Tap here to refresh",
+                        backgroundColor: Color.fromARGB(255, 255, 119, 110),
+                        padding: EdgeInsets.all(25),
+                      ),
+                    );
+                    Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const LoginPage(),
+                      ),
+                    );
+                  });
+                  return Container();
+                } else {
+                  final data = snapshot.data["profile"];
+                  final notifications = List.from(
+                      snapshot.data?["profile"]["notifications"].reversed ??
+                          [].reversed);
+                  final upcomingClasses = snapshot.data["upcoming_classes"];
+                  if (data == null || !data.containsKey("is_face_enrolled")) {
+                    return Center(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Image.asset('lib/images/Warning.gif', height: 300),
+                          const Text(
+                            "Oops! Something went wrong",
                             style: TextStyle(
                               fontFamily: 'Montserrat',
-                              fontSize: 18,
+                              fontSize: 20,
                               color: Color.fromARGB(177, 158, 158, 158),
                               fontWeight: FontWeight.w600,
                             ),
                           ),
+                          const SizedBox(height: 15),
+                          GestureDetector(
+                            onTap: () {
+                              setState(() {});
+                            },
+                            child: const Text(
+                              "Tap here to refresh",
+                              style: TextStyle(
+                                fontFamily: 'Montserrat',
+                                fontSize: 18,
+                                color: Color.fromARGB(177, 158, 158, 158),
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    );
+                  }
+                  //checking bio status
+                  if (data["is_face_enrolled"] != true) {
+                    WidgetsBinding.instance.addPostFrameCallback((_) {
+                      setlocalStore("bio");
+                      Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const NotRegistered(),
                         ),
-                      ],
+                      );
+                    });
+                    return Container(); // Return an empty container to avoid UI issues.
+                  }
+
+                  final currentSemesterAttendances =
+                      (data["student_current_semester"] == 1)
+                          ? data["allowed_courses"]
+                                  [(data["student_current_level"] ~/ 100) - 1]
+                              ["first_semester_courses"]
+                          : data["allowed_courses"]
+                                  [(data["student_current_level"] ~/ 100) - 1]
+                              ["second_semester_courses"];
+
+                  return SafeArea(
+                    child: SingleChildScrollView(
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 20, vertical: 20),
+                        child: Column(
+                          children: [
+                            _buildGreeting(data["student_name"], notifications),
+                            const SizedBox(height: 20),
+                            _buildStudentInfo(
+                              data["student_current_level"],
+                              data["student_current_semester"],
+                              data["student_college"],
+                              data["student_department"],
+                            ),
+                            const SizedBox(height: 20),
+                            _buildSectionHeader("All course attendances"),
+                            const SizedBox(height: 10),
+                            _buildAllCourseAttendances(data["allowed_courses"]),
+                            const SizedBox(height: 20),
+                            _buildSectionHeader("Current attendances"),
+                            _buildCurrentAttendances(
+                                currentSemesterAttendances),
+                            const SizedBox(height: 20),
+                            _buildSectionHeader("Upcoming Classes"),
+                            _buildUpcomingClasses(
+                                upcomingClasses, data["student_name"]),
+                          ],
+                        ),
+                      ),
                     ),
                   );
                 }
-                //checking bio status
-                if (data["is_face_enrolled"] != true) {
-                  WidgetsBinding.instance.addPostFrameCallback((_) {
-                    setlocalStore();
-                    Navigator.pushReplacement(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const NotRegistered(),
-                      ),
-                    );
-                  });
-                  return Container(); // Return an empty container to avoid UI issues.
-                }
-
-                final currentSemesterAttendances =
-                    (data["student_current_semester"] == 1)
-                        ? data["allowed_courses"]
-                                [(data["student_current_level"] ~/ 100) - 1]
-                            ["first_semester_courses"]
-                        : data["allowed_courses"]
-                                [(data["student_current_level"] ~/ 100) - 1]
-                            ["second_semester_courses"];
-
-                return SafeArea(
-                  child: SingleChildScrollView(
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 20, vertical: 20),
-                      child: Column(
-                        children: [
-                          _buildGreeting(data["student_name"], notifications),
-                          const SizedBox(height: 20),
-                          _buildStudentInfo(
-                            data["student_current_level"],
-                            data["student_current_semester"],
-                            data["student_college"],
-                            data["student_department"],
-                          ),
-                          const SizedBox(height: 20),
-                          _buildSectionHeader("All course attendances"),
-                          const SizedBox(height: 10),
-                          _buildAllCourseAttendances(data["allowed_courses"]),
-                          const SizedBox(height: 20),
-                          _buildSectionHeader("Current attendances"),
-                          _buildCurrentAttendances(currentSemesterAttendances),
-                          const SizedBox(height: 20),
-                          _buildSectionHeader("Upcoming Classes"),
-                          _buildUpcomingClasses(
-                              upcomingClasses, data["student_name"]),
-                        ],
-                      ),
-                    ),
-                  ),
-                );
               }
               return Container();
             } catch (e) {
