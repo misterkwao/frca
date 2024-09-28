@@ -1,11 +1,11 @@
 <lint-module
     format="1"
-    dir="C:\Users\vigil\Documents\Flutter Projects\frca\android\app"
+    dir="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app"
     name=":app"
     type="APP"
     maven="android:app:"
     gradle="7.3.0"
-    buildFolder="C:\Users\vigil\Documents\Flutter Projects\frca\build\app"
+    buildFolder="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\app"
     bootClassPath="C:\Users\vigil\AppData\Local\Android\sdk\platforms\android-34\android.jar;C:\Users\vigil\AppData\Local\Android\sdk\build-tools\30.0.3\core-lambda-stubs.jar"
     javaSourceLevel="1.8"
     compileTarget="android-34">

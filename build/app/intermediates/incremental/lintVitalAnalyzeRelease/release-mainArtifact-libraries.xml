@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:C:\Users\vigil\Documents\Flutter Projects\frca\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"
-      jars="C:\Users\vigil\Documents\Flutter Projects\frca\build\app\intermediates\flutter\release\libs.jar"
-      resolved="__local_aars__:C:\Users\vigil\Documents\Flutter Projects\frca\build\app\intermediates\flutter\release\libs.jar:unspecified"/>
+      name="__local_aars__:C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"
+      jars="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\app\intermediates\flutter\release\libs.jar"
+      resolved="__local_aars__:C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\app\intermediates\flutter\release\libs.jar:unspecified"/>
   <library
-      name="C:\Users\vigil\Documents\Flutter Projects\frca\android@@:camera_android_camerax::release"
-      jars="C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\.transforms\0d868f0b6e69e835cd3bd88826b211bb\transformed\out\jars\classes.jar;C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\.transforms\0d868f0b6e69e835cd3bd88826b211bb\transformed\out\jars\libs\R.jar"
+      name="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android@@:camera_android_camerax::release"
+      jars="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\.transforms\c95b7609d966254d35a134a75948931f\transformed\out\jars\classes.jar;C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\.transforms\c95b7609d966254d35a134a75948931f\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.camerax:camera_android_camerax:unspecified"
-      folder="C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\.transforms\0d868f0b6e69e835cd3bd88826b211bb\transformed\out"
+      folder="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\.transforms\c95b7609d966254d35a134a75948931f\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -17,10 +17,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Users\vigil\Documents\Flutter Projects\frca\android@@:flutter_native_splash::release"
-      jars="C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_native_splash\.transforms\d2a568fed81cefe2da4d4c56b761fce0\transformed\out\jars\classes.jar;C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_native_splash\.transforms\d2a568fed81cefe2da4d4c56b761fce0\transformed\out\jars\libs\R.jar"
+      name="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android@@:flutter_native_splash::release"
+      jars="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_native_splash\.transforms\fc83b03c49acb47e0ae019a2a4d5416f\transformed\out\jars\classes.jar;C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_native_splash\.transforms\fc83b03c49acb47e0ae019a2a4d5416f\transformed\out\jars\libs\R.jar"
       resolved="net.jonhanson.flutter_native_splash:flutter_native_splash:unspecified"
-      folder="C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_native_splash\.transforms\d2a568fed81cefe2da4d4c56b761fce0\transformed\out"
+      folder="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_native_splash\.transforms\fc83b03c49acb47e0ae019a2a4d5416f\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -30,10 +30,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Users\vigil\Documents\Flutter Projects\frca\android@@:flutter_plugin_android_lifecycle::release"
-      jars="C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\.transforms\0d12b68d740f5c1d094102e5c9c7c489\transformed\out\jars\classes.jar;C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\.transforms\0d12b68d740f5c1d094102e5c9c7c489\transformed\out\jars\libs\R.jar"
+      name="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android@@:flutter_plugin_android_lifecycle::release"
+      jars="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\.transforms\fdd52072ee53a3129de3fce2c9349688\transformed\out\jars\classes.jar;C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\.transforms\fdd52072ee53a3129de3fce2c9349688\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.flutter_plugin_android_lifecycle:flutter_plugin_android_lifecycle:unspecified"
-      folder="C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\.transforms\0d12b68d740f5c1d094102e5c9c7c489\transformed\out"
+      folder="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\.transforms\fdd52072ee53a3129de3fce2c9349688\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -43,10 +43,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Users\vigil\Documents\Flutter Projects\frca\android@@:geocoding_android::release"
-      jars="C:\Users\vigil\Documents\Flutter Projects\frca\build\geocoding_android\.transforms\08ffe91c8417ac04db7cd93d3cb0aaea\transformed\out\jars\classes.jar;C:\Users\vigil\Documents\Flutter Projects\frca\build\geocoding_android\.transforms\08ffe91c8417ac04db7cd93d3cb0aaea\transformed\out\jars\libs\R.jar"
+      name="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android@@:geocoding_android::release"
+      jars="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geocoding_android\.transforms\614307e001c81b27db747bb6bdf312ea\transformed\out\jars\classes.jar;C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geocoding_android\.transforms\614307e001c81b27db747bb6bdf312ea\transformed\out\jars\libs\R.jar"
       resolved="com.baseflow.geocoding:geocoding_android:unspecified"
-      folder="C:\Users\vigil\Documents\Flutter Projects\frca\build\geocoding_android\.transforms\08ffe91c8417ac04db7cd93d3cb0aaea\transformed\out"
+      folder="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geocoding_android\.transforms\614307e001c81b27db747bb6bdf312ea\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -56,10 +56,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Users\vigil\Documents\Flutter Projects\frca\android@@:geolocator_android::release"
-      jars="C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\.transforms\c468c161f0dcb964c5509b51b1060082\transformed\out\jars\classes.jar;C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\.transforms\c468c161f0dcb964c5509b51b1060082\transformed\out\jars\libs\R.jar"
+      name="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android@@:geolocator_android::release"
+      jars="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geolocator_android\.transforms\d487aed6e05bba2290b53907ce5549b1\transformed\out\jars\classes.jar;C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geolocator_android\.transforms\d487aed6e05bba2290b53907ce5549b1\transformed\out\jars\libs\R.jar"
       resolved="com.baseflow.geolocator:geolocator_android:unspecified"
-      folder="C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\.transforms\c468c161f0dcb964c5509b51b1060082\transformed\out"
+      folder="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geolocator_android\.transforms\d487aed6e05bba2290b53907ce5549b1\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -69,10 +69,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Users\vigil\Documents\Flutter Projects\frca\android@@:path_provider_android::release"
-      jars="C:\Users\vigil\Documents\Flutter Projects\frca\build\path_provider_android\.transforms\e09a2f545073010eac1bbc23b22e29ff\transformed\out\jars\classes.jar;C:\Users\vigil\Documents\Flutter Projects\frca\build\path_provider_android\.transforms\e09a2f545073010eac1bbc23b22e29ff\transformed\out\jars\libs\R.jar"
+      name="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android@@:path_provider_android::release"
+      jars="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\path_provider_android\.transforms\e4d1320a0efec1ec361bb1af9a10929f\transformed\out\jars\classes.jar;C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\path_provider_android\.transforms\e4d1320a0efec1ec361bb1af9a10929f\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.pathprovider:path_provider_android:unspecified"
-      folder="C:\Users\vigil\Documents\Flutter Projects\frca\build\path_provider_android\.transforms\e09a2f545073010eac1bbc23b22e29ff\transformed\out"
+      folder="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\path_provider_android\.transforms\e4d1320a0efec1ec361bb1af9a10929f\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -82,10 +82,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Users\vigil\Documents\Flutter Projects\frca\android@@:shared_preferences_android::release"
-      jars="C:\Users\vigil\Documents\Flutter Projects\frca\build\shared_preferences_android\.transforms\24e9ad55692e45ff0d45ee3cb828c2bc\transformed\out\jars\classes.jar;C:\Users\vigil\Documents\Flutter Projects\frca\build\shared_preferences_android\.transforms\24e9ad55692e45ff0d45ee3cb828c2bc\transformed\out\jars\libs\R.jar"
+      name="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android@@:shared_preferences_android::release"
+      jars="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\shared_preferences_android\.transforms\c64233d9d1f92b3163296bc9a4fff59b\transformed\out\jars\classes.jar;C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\shared_preferences_android\.transforms\c64233d9d1f92b3163296bc9a4fff59b\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.sharedpreferences:shared_preferences_android:unspecified"
-      folder="C:\Users\vigil\Documents\Flutter Projects\frca\build\shared_preferences_android\.transforms\24e9ad55692e45ff0d45ee3cb828c2bc\transformed\out"
+      folder="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\shared_preferences_android\.transforms\c64233d9d1f92b3163296bc9a4fff59b\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -95,10 +95,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Users\vigil\Documents\Flutter Projects\frca\android@@:webview_flutter_android::release"
-      jars="C:\Users\vigil\Documents\Flutter Projects\frca\build\webview_flutter_android\.transforms\4805c90e6cee536cda1fe20ffe708cfb\transformed\out\jars\classes.jar;C:\Users\vigil\Documents\Flutter Projects\frca\build\webview_flutter_android\.transforms\4805c90e6cee536cda1fe20ffe708cfb\transformed\out\jars\libs\R.jar"
+      name="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android@@:webview_flutter_android::release"
+      jars="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\webview_flutter_android\.transforms\fb714e7aea4bb271f4db5b651704aa76\transformed\out\jars\classes.jar;C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\webview_flutter_android\.transforms\fb714e7aea4bb271f4db5b651704aa76\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.webviewflutter:webview_flutter_android:unspecified"
-      folder="C:\Users\vigil\Documents\Flutter Projects\frca\build\webview_flutter_android\.transforms\4805c90e6cee536cda1fe20ffe708cfb\transformed\out"
+      folder="C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\webview_flutter_android\.transforms\fb714e7aea4bb271f4db5b651704aa76\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

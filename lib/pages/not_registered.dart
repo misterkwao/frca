@@ -104,81 +104,37 @@ class _NotRegisteredState extends State<NotRegistered> {
             });
           }
           return SizedBox(
-            height: 450,
+            height: isVerified ? 420 : 500,
             child: Center(
-              child: isVerified //checking isVerified state
-                  ? const Column(
-                      children: [
-                        SizedBox(
-                          height: 120,
-                        ),
-                        // Verification symbol
-                        Icon(
-                          Icons.verified_rounded,
-                          size: 150,
-                          color: Colors.blueAccent,
-                        ),
-                        SizedBox(
-                          height: 30,
-                        ),
-                        // Verification text
-                        Text(
-                          "Facial recognition completed!",
-                          style: TextStyle(
-                            fontSize: 18,
-                            fontWeight: FontWeight.w600,
-                            fontFamily: 'Montserrat',
+                child: isVerified //checking isVerified state
+                    ? const Column(
+                        children: [
+                          SizedBox(
+                            height: 120,
+                          ),
+                          // Verification symbol
+                          Icon(
+                            Icons.verified_rounded,
+                            size: 150,
                             color: Colors.blueAccent,
                           ),
-                          textAlign: TextAlign.center,
-                        ),
-                      ],
-                    )
-                  : Column(
-                      children: <Widget>[
-                        const SizedBox(
-                          height: 30,
-                        ),
-                        // Warning
-                        const Text(
-                          'Please standby for scanning',
-                          style:
-                              TextStyle(fontFamily: 'Montserrat', fontSize: 15),
-                        ),
-                        const SizedBox(
-                          height: 30,
-                        ),
-                        // Camera
-                        Container(
-                          width: 200,
-                          height: 230,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(15),
-                            border: Border.all(
-                              width: 4,
-                              color: const Color.fromRGBO(156, 188, 255, 1),
-                            ),
+                          SizedBox(
+                            height: 30,
                           ),
-                          child: _isCameraInitialized
-                              ? ClipRRect(
-                                  borderRadius: const BorderRadius.all(
-                                    Radius.circular(8.0),
-                                  ),
-                                  child: SizedBox(
-                                    height: 230,
-                                    child: AspectRatio(
-                                      aspectRatio:
-                                          cameraController.value.aspectRatio,
-                                      child: CameraPreview(cameraController),
-                                    ),
-                                  ),
-                                )
-                              : const Center(
-                                  child: CircularProgressIndicator()),
-                        ),
-                      ],
-                    ),
-            ),
+                          // Verification text
+                          Text(
+                            "Facial recognition completed!",
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.w600,
+                              fontFamily: 'Montserrat',
+                              color: Colors.blueAccent,
+                            ),
+                            textAlign: TextAlign.center,
+                          ),
+                        ],
+                      )
+                    : buildCameraWidget()),
           );
         });
       },
@@ -244,6 +200,48 @@ class _NotRegisteredState extends State<NotRegistered> {
               ),
             ),
           ),
+        ),
+      ),
+    );
+  }
+
+  Widget buildCameraWidget() {
+    return SizedBox(
+      height: 500,
+      child: Center(
+        child: Column(
+          children: [
+            const Text(
+              'Please standby for scanning...',
+              style: TextStyle(
+                  fontFamily: 'Montserrat',
+                  fontSize: 15,
+                  color: Color.fromARGB(255, 255, 82, 82),
+                  fontWeight: FontWeight.w800),
+            ),
+            const SizedBox(height: 25),
+            SizedBox(
+              width: 300,
+              height: 410,
+              child: _isCameraInitialized
+                  ? ClipRRect(
+                      borderRadius:
+                          const BorderRadius.all(Radius.circular(30.0)),
+                      child: SizedBox(
+                        height: 410,
+                        child: AspectRatio(
+                          aspectRatio: cameraController.value.aspectRatio,
+                          child: CameraPreview(cameraController),
+                        ),
+                      ),
+                    )
+                  : const Center(
+                      child: CircularProgressIndicator(
+                      color: Colors.blueAccent,
+                      strokeWidth: 5,
+                    )),
+            ),
+          ],
         ),
       ),
     );

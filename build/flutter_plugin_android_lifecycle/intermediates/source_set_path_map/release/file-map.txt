@@ -20,9 +20,9 @@ io.flutter.plugins.flutter_plugin_android_lifecycle-jetified-profileinstaller-1.
 io.flutter.plugins.flutter_plugin_android_lifecycle-jetified-tracing-1.2.0-19 C:\Users\vigil\.gradle\caches\transforms-3\f96a28b12db30ebb0841ae7255df1970\transformed\jetified-tracing-1.2.0\res
 io.flutter.plugins.flutter_plugin_android_lifecycle-main-20 C:\Users\vigil\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.19\android\src\main\res
 io.flutter.plugins.flutter_plugin_android_lifecycle-release-21 C:\Users\vigil\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.19\android\src\release\res
-io.flutter.plugins.flutter_plugin_android_lifecycle-pngs-22 C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\generated\res\pngs\release
-io.flutter.plugins.flutter_plugin_android_lifecycle-resValues-23 C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\generated\res\resValues\release
-io.flutter.plugins.flutter_plugin_android_lifecycle-rs-24 C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\generated\res\rs\release
-io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-25 C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\intermediates\incremental\release\mergeReleaseResources\merged.dir
-io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-26 C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\intermediates\incremental\release\mergeReleaseResources\stripped.dir
-io.flutter.plugins.flutter_plugin_android_lifecycle-merged_res-27 C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\intermediates\merged_res\release
+io.flutter.plugins.flutter_plugin_android_lifecycle-pngs-22 C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\generated\res\pngs\release
+io.flutter.plugins.flutter_plugin_android_lifecycle-resValues-23 C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\generated\res\resValues\release
+io.flutter.plugins.flutter_plugin_android_lifecycle-rs-24 C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\generated\res\rs\release
+io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-25 C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-26 C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.flutter_plugin_android_lifecycle-merged_res-27 C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\intermediates\merged_res\release

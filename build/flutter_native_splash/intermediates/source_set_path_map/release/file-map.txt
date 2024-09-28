@@ -20,9 +20,9 @@ net.jonhanson.flutter_native_splash-jetified-profileinstaller-1.3.1-18 C:\Users\
 net.jonhanson.flutter_native_splash-jetified-tracing-1.2.0-19 C:\Users\vigil\.gradle\caches\transforms-3\f96a28b12db30ebb0841ae7255df1970\transformed\jetified-tracing-1.2.0\res
 net.jonhanson.flutter_native_splash-main-20 C:\Users\vigil\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_native_splash-2.4.0\android\src\main\res
 net.jonhanson.flutter_native_splash-release-21 C:\Users\vigil\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_native_splash-2.4.0\android\src\release\res
-net.jonhanson.flutter_native_splash-pngs-22 C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_native_splash\generated\res\pngs\release
-net.jonhanson.flutter_native_splash-resValues-23 C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_native_splash\generated\res\resValues\release
-net.jonhanson.flutter_native_splash-rs-24 C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_native_splash\generated\res\rs\release
-net.jonhanson.flutter_native_splash-mergeReleaseResources-25 C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_native_splash\intermediates\incremental\release\mergeReleaseResources\merged.dir
-net.jonhanson.flutter_native_splash-mergeReleaseResources-26 C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_native_splash\intermediates\incremental\release\mergeReleaseResources\stripped.dir
-net.jonhanson.flutter_native_splash-merged_res-27 C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_native_splash\intermediates\merged_res\release
+net.jonhanson.flutter_native_splash-pngs-22 C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_native_splash\generated\res\pngs\release
+net.jonhanson.flutter_native_splash-resValues-23 C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_native_splash\generated\res\resValues\release
+net.jonhanson.flutter_native_splash-rs-24 C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_native_splash\generated\res\rs\release
+net.jonhanson.flutter_native_splash-mergeReleaseResources-25 C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_native_splash\intermediates\incremental\release\mergeReleaseResources\merged.dir
+net.jonhanson.flutter_native_splash-mergeReleaseResources-26 C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_native_splash\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+net.jonhanson.flutter_native_splash-merged_res-27 C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_native_splash\intermediates\merged_res\release

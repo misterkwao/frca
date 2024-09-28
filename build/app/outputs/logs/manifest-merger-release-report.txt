@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:4:5-34:19
-MERGED from [:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-15:19
-MERGED from [:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-15:19
+INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:4:5-34:19
+MERGED from [:geolocator_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-15:19
 MERGED from [androidx.camera:camera-camera2:1.3.3] C:\Users\vigil\.gradle\caches\transforms-3\4ae809bcd6a73ecd9aff3b1e351b0eab\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:23:5-34:19
 MERGED from [androidx.camera:camera-camera2:1.3.3] C:\Users\vigil\.gradle\caches\transforms-3\4ae809bcd6a73ecd9aff3b1e351b0eab\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:23:5-34:19
 MERGED from [androidx.camera:camera-core:1.3.3] C:\Users\vigil\.gradle\caches\transforms-3\4a0bc7307f08b2687a15330a71b27e66\transformed\jetified-camera-core-1.3.3\AndroidManifest.xml:23:5-34:19
@@ -30,25 +30,25 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vi
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\vigil\.gradle\caches\transforms-3\f7d03183e70204ed2fc0540bb5212096\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:5:9-29
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:5:9-29
 	android:icon
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:7:9-45
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:7:9-45
 	android:name
-		INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:6:9-42
+		INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:6:9-42
 manifest
-ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
-INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
-INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
-INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
-MERGED from [:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-21:12
-MERGED from [:flutter_native_splash] C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_native_splash\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
-MERGED from [:flutter_plugin_android_lifecycle] C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
-MERGED from [:geocoding_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geocoding_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
-MERGED from [:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-17:12
-MERGED from [:path_provider_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
-MERGED from [:shared_preferences_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
-MERGED from [:webview_flutter_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\webview_flutter_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from [:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-21:12
+MERGED from [:flutter_native_splash] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_native_splash\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:geocoding_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geocoding_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:geolocator_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-17:12
+MERGED from [:path_provider_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:shared_preferences_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:webview_flutter_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\webview_flutter_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.camera:camera-video:1.3.3] C:\Users\vigil\.gradle\caches\transforms-3\77501797834cd3c037a5e0da70b3313f\transformed\jetified-camera-video-1.3.3\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.camera:camera-lifecycle:1.3.3] C:\Users\vigil\.gradle\caches\transforms-3\200c9195ed8b20e13d01ee92e8022935\transformed\jetified-camera-lifecycle-1.3.3\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.camera:camera-camera2:1.3.3] C:\Users\vigil\.gradle\caches\transforms-3\4ae809bcd6a73ecd9aff3b1e351b0eab\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:17:1-36:12
@@ -84,67 +84,67 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vi
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\vigil\.gradle\caches\transforms-3\10931ac8a593b47d54f9a4756db39edc\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\vigil\.gradle\caches\transforms-3\f566c5717cfaa63370d3f1d0115caf9d\transformed\jetified-core-1.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\vigil\.gradle\caches\transforms-3\436faa0cc50dc2e92a7e14c0968db926\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
-INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
-INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
-INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
 	package
-		INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
-		INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
-		INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
-		INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:2:1-75
+ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:2:1-75
 	android:name
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:2:18-72
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:2:18-72
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:3:1-77
+ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:3:1-77
 	android:name
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:3:18-74
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:3:18-74
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:35:5-66
+ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:35:5-66
 	android:name
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:35:22-64
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:35:22-64
 queries
-ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:41:5-46:15
+ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:41:5-46:15
 intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
-ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:42:9-45:18
+ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:42:9-45:18
 action#android.intent.action.PROCESS_TEXT
-ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:43:13-72
+ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:43:13-72
 	android:name
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:43:21-70
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:43:21-70
 data
-ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:44:13-50
+ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:44:13-50
 	android:mimeType
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:44:19-48
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:44:19-48
 uses-sdk
-INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
-MERGED from [:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-8:41
-MERGED from [:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-8:41
-MERGED from [:flutter_native_splash] C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_native_splash\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_native_splash] C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_native_splash\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_plugin_android_lifecycle] C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_plugin_android_lifecycle] C:\Users\vigil\Documents\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
-MERGED from [:geocoding_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geocoding_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
-MERGED from [:geocoding_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geocoding_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
-MERGED from [:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
-MERGED from [:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
-MERGED from [:path_provider_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
-MERGED from [:path_provider_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
-MERGED from [:shared_preferences_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
-MERGED from [:shared_preferences_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
-MERGED from [:webview_flutter_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\webview_flutter_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
-MERGED from [:webview_flutter_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\webview_flutter_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
+MERGED from [:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-8:41
+MERGED from [:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-8:41
+MERGED from [:flutter_native_splash] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_native_splash\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_native_splash\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:geocoding_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geocoding_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:geocoding_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geocoding_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:webview_flutter_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\webview_flutter_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:webview_flutter_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\webview_flutter_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.camera:camera-video:1.3.3] C:\Users\vigil\.gradle\caches\transforms-3\77501797834cd3c037a5e0da70b3313f\transformed\jetified-camera-video-1.3.3\AndroidManifest.xml:5:5-44
 MERGED from [androidx.camera:camera-video:1.3.3] C:\Users\vigil\.gradle\caches\transforms-3\77501797834cd3c037a5e0da70b3313f\transformed\jetified-camera-video-1.3.3\AndroidManifest.xml:5:5-44
 MERGED from [androidx.camera:camera-lifecycle:1.3.3] C:\Users\vigil\.gradle\caches\transforms-3\200c9195ed8b20e13d01ee92e8022935\transformed\jetified-camera-lifecycle-1.3.3\AndroidManifest.xml:5:5-44
@@ -215,88 +215,88 @@ MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\vigil\.gradle\
 MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\vigil\.gradle\caches\transforms-3\f566c5717cfaa63370d3f1d0115caf9d\transformed\jetified-core-1.0.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\vigil\.gradle\caches\transforms-3\436faa0cc50dc2e92a7e14c0968db926\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\vigil\.gradle\caches\transforms-3\436faa0cc50dc2e92a7e14c0968db926\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
-INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml
 activity#com.example.frca.MainActivity
-ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:8:9-28:20
+ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:8:9-28:20
 	android:launchMode
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:11:13-43
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:11:13-43
 	android:hardwareAccelerated
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:14:13-47
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:14:13-47
 	android:windowSoftInputMode
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:15:13-55
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:15:13-55
 	android:exported
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:10:13-36
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:10:13-36
 	android:configChanges
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:13:13-163
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:13:13-163
 	android:theme
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:12:13-47
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:12:13-47
 	android:name
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:9:13-41
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:9:13-41
 meta-data#io.flutter.embedding.android.NormalTheme
-ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:20:13-23:17
+ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:20:13-23:17
 	android:resource
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:22:15-52
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:22:15-52
 	android:name
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:21:15-70
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:21:15-70
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:24:13-27:29
+ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:24:13-27:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:25:17-68
+ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:25:17-68
 	android:name
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:26:17-76
+ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:26:17-76
 	android:name
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:26:27-74
 meta-data#flutterEmbedding
-ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:31:9-33:33
+ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:31:9-33:33
 	android:value
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:33:13-30
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:33:13-30
 	android:name
-		ADDED from C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:32:13-44
+		ADDED from C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:32:13-44
 uses-feature#android.hardware.camera.any
-ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-64
+ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-64
 	android:name
-		ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:10:19-61
+		ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:10:19-61
 uses-permission#android.permission.CAMERA
-ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-65
+ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-65
 	android:name
-		ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-62
+		ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-62
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-71
+ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-71
 	android:name
-		ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-68
+		ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-68
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:14:5-16:38
+ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:14:5-16:38
 	android:maxSdkVersion
-		ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-35
+		ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-35
 	android:name
-		ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-65
+		ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-65
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:17:5-19:31
+ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:17:5-19:31
 	tools:node
-		ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-28
+		ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-28
 	android:name
-		ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-64
+		ADDED from [:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-64
 service#com.baseflow.geolocator.GeolocatorLocationService
-ADDED from [:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:56
+ADDED from [:geolocator_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:56
 	android:enabled
-		ADDED from [:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-35
+		ADDED from [:geolocator_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-35
 	android:exported
-		ADDED from [:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+		ADDED from [:geolocator_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
 	android:foregroundServiceType
-		ADDED from [:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-53
+		ADDED from [:geolocator_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-53
 	android:name
-		ADDED from [:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-77
+		ADDED from [:geolocator_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-77
 service#androidx.camera.core.impl.MetadataHolderService
 ADDED from [androidx.camera:camera-camera2:1.3.3] C:\Users\vigil\.gradle\caches\transforms-3\4ae809bcd6a73ecd9aff3b1e351b0eab\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:24:9-33:19
 MERGED from [androidx.camera:camera-core:1.3.3] C:\Users\vigil\.gradle\caches\transforms-3\4a0bc7307f08b2687a15330a71b27e66\transformed\jetified-camera-core-1.3.3\AndroidManifest.xml:29:9-33:78

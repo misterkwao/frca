@@ -284,7 +284,7 @@
             "outputFile": "com.example.frca.app-merged_res-34:/values-night-v31_values-night-v31.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\vigil\\Documents\\Flutter Projects\\frca\\android\\app\\src\\main\\res\\values-night-v31\\styles.xml",
+                    "source": "C:\\Users\\vigil\\Documents\\Developments\\Flutter Projects\\frca\\android\\app\\src\\main\\res\\values-night-v31\\styles.xml",
                     "from": {
                         "startLines": "3,17",
                         "startColumns": "4,4",
@@ -476,7 +476,7 @@
             "outputFile": "com.example.frca.app-merged_res-34:/values-v31_values-v31.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\vigil\\Documents\\Flutter Projects\\frca\\android\\app\\src\\main\\res\\values-v31\\styles.xml",
+                    "source": "C:\\Users\\vigil\\Documents\\Developments\\Flutter Projects\\frca\\android\\app\\src\\main\\res\\values-v31\\styles.xml",
                     "from": {
                         "startLines": "3,17",
                         "startColumns": "4,4",
@@ -1539,7 +1539,7 @@
             "outputFile": "com.example.frca.app-merged_res-34:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\vigil\\Documents\\Flutter Projects\\frca\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\vigil\\Documents\\Developments\\Flutter Projects\\frca\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,18",
                         "startColumns": "4,4",
@@ -4018,24 +4018,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\vigil\\.gradle\\caches\\transforms-3\\d8ac52e5ecf70bd1bcfc66306c32650a\\transformed\\lifecycle-viewmodel-2.7.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "49",
-                        "endOffsets": "100"
-                    },
-                    "to": {
-                        "startLines": "151",
-                        "startColumns": "4",
-                        "startOffsets": "7766",
-                        "endColumns": "49",
-                        "endOffsets": "7811"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\vigil\\Documents\\Flutter Projects\\frca\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\vigil\\Documents\\Developments\\Flutter Projects\\frca\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,18",
                         "startColumns": "4,4",
@@ -4051,6 +4034,23 @@
                         "endLines": "189,192",
                         "endColumns": "12,12",
                         "endOffsets": "11463,11632"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\vigil\\.gradle\\caches\\transforms-3\\d8ac52e5ecf70bd1bcfc66306c32650a\\transformed\\lifecycle-viewmodel-2.7.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "49",
+                        "endOffsets": "100"
+                    },
+                    "to": {
+                        "startLines": "151",
+                        "startColumns": "4",
+                        "startOffsets": "7766",
+                        "endColumns": "49",
+                        "endOffsets": "7811"
                     }
                 },
                 {

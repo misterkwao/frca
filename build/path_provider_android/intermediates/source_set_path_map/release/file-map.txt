@@ -20,9 +20,9 @@ io.flutter.plugins.pathprovider.path_provider_android-jetified-profileinstaller-
 io.flutter.plugins.pathprovider.path_provider_android-jetified-tracing-1.2.0-19 C:\Users\vigil\.gradle\caches\transforms-3\f96a28b12db30ebb0841ae7255df1970\transformed\jetified-tracing-1.2.0\res
 io.flutter.plugins.pathprovider.path_provider_android-main-20 C:\Users\vigil\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.4\android\src\main\res
 io.flutter.plugins.pathprovider.path_provider_android-release-21 C:\Users\vigil\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.4\android\src\release\res
-io.flutter.plugins.pathprovider.path_provider_android-pngs-22 C:\Users\vigil\Documents\Flutter Projects\frca\build\path_provider_android\generated\res\pngs\release
-io.flutter.plugins.pathprovider.path_provider_android-resValues-23 C:\Users\vigil\Documents\Flutter Projects\frca\build\path_provider_android\generated\res\resValues\release
-io.flutter.plugins.pathprovider.path_provider_android-rs-24 C:\Users\vigil\Documents\Flutter Projects\frca\build\path_provider_android\generated\res\rs\release
-io.flutter.plugins.pathprovider.path_provider_android-mergeReleaseResources-25 C:\Users\vigil\Documents\Flutter Projects\frca\build\path_provider_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
-io.flutter.plugins.pathprovider.path_provider_android-mergeReleaseResources-26 C:\Users\vigil\Documents\Flutter Projects\frca\build\path_provider_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
-io.flutter.plugins.pathprovider.path_provider_android-merged_res-27 C:\Users\vigil\Documents\Flutter Projects\frca\build\path_provider_android\intermediates\merged_res\release
+io.flutter.plugins.pathprovider.path_provider_android-pngs-22 C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\path_provider_android\generated\res\pngs\release
+io.flutter.plugins.pathprovider.path_provider_android-resValues-23 C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\path_provider_android\generated\res\resValues\release
+io.flutter.plugins.pathprovider.path_provider_android-rs-24 C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\path_provider_android\generated\res\rs\release
+io.flutter.plugins.pathprovider.path_provider_android-mergeReleaseResources-25 C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\path_provider_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.pathprovider.path_provider_android-mergeReleaseResources-26 C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\path_provider_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.pathprovider.path_provider_android-merged_res-27 C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\path_provider_android\intermediates\merged_res\release

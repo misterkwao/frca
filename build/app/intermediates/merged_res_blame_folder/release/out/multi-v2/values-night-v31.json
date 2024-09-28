@@ -4,7 +4,7 @@
             "outputFile": "com.example.frca.app-mergeReleaseResources-32:/values-night-v31/values-night-v31.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vigil\\Documents\\Flutter Projects\\frca\\android\\app\\src\\main\\res\\values-night-v31\\styles.xml",
+                    "source": "C:\\Users\\vigil\\Documents\\Developments\\Flutter Projects\\frca\\android\\app\\src\\main\\res\\values-night-v31\\styles.xml",
                     "from": {
                         "startLines": "3,17",
                         "startColumns": "4,4",

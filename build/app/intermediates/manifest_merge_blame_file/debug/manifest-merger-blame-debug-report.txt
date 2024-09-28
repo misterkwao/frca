@@ -13,14 +13,14 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:35:5-66
-15-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:35:22-64
+15-->C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:35:5-66
+15-->C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:35:22-64
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:2:1-75
-16-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:2:18-72
+16-->C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:2:1-75
+16-->C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:2:18-72
 17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-17-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:3:1-77
-17-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:3:18-74
+17-->C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:3:1-77
+17-->C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:3:18-74
 18    <!--
 19 Required to query activities that can process text, see:
 20         https://developer.android.com/training/package-visibility?hl=en and
@@ -29,35 +29,35 @@
 23         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
 24    -->
 25    <queries>
-25-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:41:5-46:15
+25-->C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:41:5-46:15
 26        <intent>
-26-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:42:9-45:18
+26-->C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:42:9-45:18
 27            <action android:name="android.intent.action.PROCESS_TEXT" />
-27-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:43:13-72
-27-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:43:21-70
+27-->C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:43:13-72
+27-->C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:43:21-70
 28
 29            <data android:mimeType="text/plain" />
-29-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:44:13-50
-29-->C:\Users\vigil\Documents\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:44:19-48
+29-->C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:44:13-50
+29-->C:\Users\vigil\Documents\Developments\Flutter Projects\frca\android\app\src\main\AndroidManifest.xml:44:19-48
 30        </intent>
 31    </queries>
 32
 33    <uses-feature android:name="android.hardware.camera.any" />
-33-->[:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-64
-33-->[:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:10:19-61
+33-->[:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-64
+33-->[:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:10:19-61
 34
 35    <uses-permission android:name="android.permission.CAMERA" />
-35-->[:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-65
-35-->[:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-62
+35-->[:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-65
+35-->[:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-62
 36    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-36-->[:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-71
-36-->[:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-68
+36-->[:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-71
+36-->[:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-68
 37    <uses-permission
-37-->[:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-16:38
+37-->[:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-16:38
 38        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-38-->[:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-65
+38-->[:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-65
 39        android:maxSdkVersion="28" />
-39-->[:camera_android_camerax] C:\Users\vigil\Documents\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-35
+39-->[:camera_android_camerax] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-35
 40
 41    <permission
 41-->[androidx.core:core:1.13.1] C:\Users\vigil\.gradle\caches\transforms-3\f7d03183e70204ed2fc0540bb5212096\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
@@ -111,15 +111,15 @@
 84            android:value="2" />
 85
 86        <service
-86-->[:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:56
+86-->[:geolocator_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:56
 87            android:name="com.baseflow.geolocator.GeolocatorLocationService"
-87-->[:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-77
+87-->[:geolocator_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-77
 88            android:enabled="true"
-88-->[:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-35
+88-->[:geolocator_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-35
 89            android:exported="false"
-89-->[:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+89-->[:geolocator_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
 90            android:foregroundServiceType="location" />
-90-->[:geolocator_android] C:\Users\vigil\Documents\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-53
+90-->[:geolocator_android] C:\Users\vigil\Documents\Developments\Flutter Projects\frca\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-53
 91        <service
 91-->[androidx.camera:camera-camera2:1.3.3] C:\Users\vigil\.gradle\caches\transforms-3\4ae809bcd6a73ecd9aff3b1e351b0eab\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:24:9-33:19
 92            android:name="androidx.camera.core.impl.MetadataHolderService"

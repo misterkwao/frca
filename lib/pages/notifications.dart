@@ -311,42 +311,39 @@ class _NotificationsPageState extends State<NotificationsPage>
 
   Widget buildCameraWidget() {
     return SizedBox(
-      height: 350,
+      height: 500,
       child: Center(
         child: Column(
           children: [
-            const SizedBox(height: 30),
             const Text(
-              'Please standby for scanning',
+              'Please standby for scanning...',
               style: TextStyle(
-                fontFamily: 'Montserrat',
-                fontSize: 15,
-              ),
+                  fontFamily: 'Montserrat',
+                  fontSize: 15,
+                  color: Color.fromARGB(255, 255, 82, 82),
+                  fontWeight: FontWeight.w800),
             ),
-            const SizedBox(height: 30),
-            Container(
-              width: 200,
-              height: 230,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(15),
-                border: Border.all(
-                  width: 4,
-                  color: const Color.fromRGBO(156, 188, 255, 1),
-                ),
-              ),
+            const SizedBox(height: 25),
+            SizedBox(
+              width: 300,
+              height: 410,
               child: _isCameraInitialized
                   ? ClipRRect(
                       borderRadius:
-                          const BorderRadius.all(Radius.circular(8.0)),
+                          const BorderRadius.all(Radius.circular(30.0)),
                       child: SizedBox(
-                        height: 230,
+                        height: 410,
                         child: AspectRatio(
                           aspectRatio: cameraController.value.aspectRatio,
                           child: CameraPreview(cameraController),
                         ),
                       ),
                     )
-                  : const Center(child: CircularProgressIndicator()),
+                  : const Center(
+                      child: CircularProgressIndicator(
+                      color: Colors.blueAccent,
+                      strokeWidth: 5,
+                    )),
             ),
           ],
         ),
