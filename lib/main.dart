@@ -62,7 +62,7 @@ class _MyAppState extends State<MyApp> {
           const CircularProgressIndicator(
                                     color: Colors.white,
                                     backgroundColor: Colors.white12,
-                                    strokeWidth: 4,
+                                    strokeWidth: 5,
                                   ), // Show a loading indicator while waiting
     );
   }
